@@ -1,10 +1,12 @@
-# Image-Convert-Project
+# imgs2pdf
+
 multiple images convert into a single PDF file
 
-## Necessary Python Packages
+## usage
 
-`pip install Pillow`
+usage: main.py [-h] --folder FOLDER --save_fname SAVE_FNAME
 
-## Related Project
-
-[Program 2 - Threading Programming](https://github.com/Ping6666/Operating-System-Projects/blob/main/Program%202%20-%20Threading%20Programming/README.md)
+options:
+  -h, --help            show this help message and exit
+  --folder FOLDER
+  --save_fname SAVE_FNAME
